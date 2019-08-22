@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Random;
 
 class Main {
   public static void main(String[] args) {
@@ -15,8 +16,14 @@ class Main {
                        G. Self-critical
                        H. Apathetic
                        Select one of the above by typing the corresponding letter on your keyboard." ) ; 
-     
+                       
+     //accepting user input
      String user_input = in.NextLine(); 
+     
+                       
+                       
+                       
+     // what to print based on the user_input
                        
      if user_input == ("A") {
        System.out.println(" ")
