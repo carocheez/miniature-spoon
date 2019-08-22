@@ -5,7 +5,7 @@ class Main {
     
     Scanner in = new Scanner(System.in);
     
-    System.out.println("Hi! How are you feeling today? 
+    System.out.println("Hi there! How are you feeling today? 
                        A. Happy
                        B. Sad
                        C. Unmotivated/Uninspired
@@ -18,4 +18,35 @@ class Main {
      
      String user_input = in.NextLine(); 
                        
+     if user_input == ("A") {
+       System.out.println(" ")
+     }
+                      
+     if user_input == ("B") {
+       System.out.println(" ")
+     }
+                       
+     if user_input == ("C") {
+       System.out.println(" ")
+     }                 
+     
+     if user_input == ("D") {
+       System.out.println(" ")
+     }   
+                       
+     if user_input == ("E") {
+       System.out.println(" ")
+     }                   
+      
+     if user_input == ("F") {
+       System.out.println(" ")
+     }   
+                       
+     if user_input == ("G") {
+       System.out.println(" ")
+     }
+                       
+     if user_input == ("H") {
+       System.out.println(" ")
+     }                  
   }
