@@ -29,17 +29,21 @@ class Main {
      String [] c = {"So you're feeling anxious. take deep breaths luv xx" , 
                     "So you're feeling anxious. write a list of what you're grateful for luv xx" };
                        
-     String [] d = {"So you're feeling self-critical." , 
-                    "So you're feeling self-critical." };                  
+     String [] d = {"So you're feeling self-critical. it's okay luv xx" , 
+                    "So you're feeling self-critical. aren't we all." };                  
                        
      // what to print based on the user_input
                        
      if user_input == ("A") {
-       System.out.println(" ")
+       Random Aind = new Random(); 
+       int a_response = (int)(Math.random()*1);
+       System.out.println(a[a_response]);
      }
                       
      if user_input == ("B") {
-       System.out.println(" ")
+      Random Bind = new Random(); 
+      int n = Aind.nextInt(6); 
+      System.out.println(b[n]);
      }
                        
      if user_input == ("C") {
