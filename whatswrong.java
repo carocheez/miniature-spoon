@@ -26,8 +26,8 @@ class Main {
      String [] b = {"So you're feeling homesick. It's totally normal to feel homesick after moving away from your entire life and starting a new one. Call home to hear from people who know and love you!" ,
                     "So you're feeling homesick. get over it. lol jk" };
                        
-     String [] c = {"So you're feeling anxious." , 
-                    "So you're feeling anxious." };
+     String [] c = {"So you're feeling anxious. take deep breaths luv xx" , 
+                    "So you're feeling anxious. write a list of what you're grateful for luv xx" };
                        
      String [] d = {"So you're feeling self-critical." , 
                     "So you're feeling self-critical." };                  
