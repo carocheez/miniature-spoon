@@ -42,16 +42,20 @@ class Main {
                       
      if user_input == ("B") {
       Random Bind = new Random(); 
-      int n = Aind.nextInt(6); 
-      System.out.println(b[n]);
+       int b_response = (int)(Math.random()*1);
+       System.out.println(b[b_response]);
      }
                        
      if user_input == ("C") {
-       System.out.println(" ")
+       Random Cind = new Random(); 
+       int c_response = (int)(Math.random()*1);
+       System.out.println(c[c_response]);
      }                 
      
      if user_input == ("D") {
-       System.out.println(" ")
+       Random Dind = new Random(); 
+       int d_response = (int)(Math.random()*1);
+       System.out.println(d[d_response]);
      }   
                        
      
