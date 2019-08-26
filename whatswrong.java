@@ -6,14 +6,7 @@ class Main {
     
     Scanner in = new Scanner(System.in);
     
-    System.out.println("Hi there! What's wrong? How are you feeling today? 
-
-                       A. Unmotivated/Uninspired
-                       B. Homesick
-                       C. Anxious
-                       D. Self-critical
-                       
-                       Select one of the above by typing the corresponding letter on your keyboard." ) ; 
+    System.out.println("Hi there! What's wrong? How are you feeling today? A. Unmotivated/Uninspired B. Homesick C. Anxious D. Self-critical Select one of the above by typing the corresponding letter on your keyboard.") ; 
                        
      //accepting user input
      String user_input = in.NextLine(); 
@@ -34,25 +27,25 @@ class Main {
                        
      // what to print based on the user_input
                        
-     if user_input == ("A") {
+     if (user_input == ("A")) {
        Random Aind = new Random(); 
        int a_response = (int)(Math.random()*1);
        System.out.println(a[a_response]);
      }
                       
-     if user_input == ("B") {
+     if (user_input == ("B")) {
       Random Bind = new Random(); 
        int b_response = (int)(Math.random()*1);
        System.out.println(b[b_response]);
      }
                        
-     if user_input == ("C") {
+     if (user_input == ("C")) {
        Random Cind = new Random(); 
        int c_response = (int)(Math.random()*1);
        System.out.println(c[c_response]);
      }                 
      
-     if user_input == ("D") {
+     if (user_input == ("D")) {
        Random Dind = new Random(); 
        int d_response = (int)(Math.random()*1);
        System.out.println(d[d_response]);
